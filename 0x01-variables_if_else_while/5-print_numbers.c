@@ -1,12 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - main fonction
+ * main - main function
  *
- * Return : return always 0
+ * Return: always 0
  */
 
 int main(void)
 {
-	printf("0123456789\n");
+	int s;
+
+	for (s = 0 ; s < 10 ; s++)
+		printf("%d", s);
+	printf("\n");
 	return (0);
 }
