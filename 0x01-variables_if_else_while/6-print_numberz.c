@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - main fonction
  *
@@ -7,10 +8,10 @@
 
 int main(void)
 {
-	char s;
+	int s;
 
-	for (s = '0' ; s <= '9' ; s++)
-		putchar(s);
+	for (s = 0 ; s < 10 ; s++)
+		putchar(s + '0');
 	putchar('\n');
 	return (0);
 }
