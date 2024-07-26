@@ -4,11 +4,11 @@
 #include <stdarg.h>
 
 /**
-  * print_numbers - ...
-  * @separator: ...
-  * @n: ...
+  * print_numbers - function that prints numbers
+  * @separator: const char
+  * @n: unsigned int
   *
-  * Return: ...
+  * Return: void
   */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
