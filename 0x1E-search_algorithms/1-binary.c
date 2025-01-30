@@ -1,4 +1,6 @@
 #include "search_algos.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
   * binary_search - searches for a value in a sorted array
@@ -11,9 +13,7 @@
   */
 int binary_search(int *array, size_t size, int value)
 {
-	size_t s;
-	size_t left;
-	size_t right;
+	size_t s, left, right;
 
 	if (array == NULL)
 		return (-1);
